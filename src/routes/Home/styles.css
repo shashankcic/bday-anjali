@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Josefin+Sans&family=Big+Shoulders+Inline+Text:wght@900&display=swap');
+.App {
+  text-align: center;
+}     
+
+.top {
+  z-index: 1;
+}
+
+.images {
+  font-family: Raleway, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+  background: #59C173;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #5D26C1, #a17fe0, #59C173);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #5D26C1, #a17fe0, #59C173); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@media only screen and (max-width: 340px) {
+  .card-columns {
+    column-count: 1 !important;
+  }
+}
+@media only screen and (min-width: 340px) {
+  .card-columns {
+    column-count: 1 !important;
+  }
+}
+@media only screen and (min-width: 400px) {
+  .card-columns {
+    column-count: 1 !important;
+  }
+}
+@media only screen and (min-width: 480px) {
+  .card-columns {
+    column-count: 1 !important;
+  }
+}
+@media only screen and (min-width: 576px) {
+  .card-columns {
+    column-count: 1 !important;
+  }
+}
+@media only screen and (min-width: 640px) {
+  .card-columns {
+    column-count: 2 !important;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .card-columns {
+    column-count: 2 !important;
+  }
+}
+@media only screen and (min-width: 880px) {
+  .card-columns {
+    column-count: 3 !important;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .card-columns {
+    column-count: 3 !important;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .card-columns {
+    column-count: 3 !important;
+  }
+}

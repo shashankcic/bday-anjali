@@ -1,0 +1,27 @@
+.modal-btn {
+	font-family: Josefin Sans, segoe ui, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto,
+   arial, sans-serif;
+	opacity: 1;
+	transition: all 0.3s ease-in-out; 
+}
+
+.modal-btn:hover {
+	color: #111;
+	opacity: 0.5;
+}
+
+.myModal {
+	font-family: Raleway, Josefin Sans, segoe ui, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto,
+   arial, sans-serif;
+	background:  #FFE5BB;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(45.34deg, #119DA4 5.66%, #9BC7B2 31.53%, #FFE5BB 50.01%, #FFBE99 72.18%, #FF886A 94.35%);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(45.34deg, #119DA4 5.66%, #9BC7B2 31.53%, #FFE5BB 50.01%, #FFBE99 72.18%, #FF886A 94.35%);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.modal-header {
+	border-bottom: none !important;
+	text-align: center !important;
+}

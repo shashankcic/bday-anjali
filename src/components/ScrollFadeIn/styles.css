@@ -1,0 +1,28 @@
+.main {
+	font-family: Raleway, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+}
+
+.title {
+	height: auto;
+}
+
+.myCard {
+	border-radius: 0.5em !important;
+	background: #12c2e9;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	transition: all 0.3s ease-in-out;
+}
+
+.myCard:hover {
+	transform: scale(1.05);
+}
+
+img {
+	border-radius: 0.25em;
+	/*transition: all 0.3s ease-in-out;*/
+}
+/*
+img:hover {
+	transform: scale(1.1);
+}*/
